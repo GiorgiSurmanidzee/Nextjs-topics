@@ -96,3 +96,21 @@ Be skipped by crawlers
 Take longer to index
 
 Hurt ranking (especially for content-rich pages)
+
+
+
+## 🧐 When to Use Each?
+
+Server Components Are Perfect For:
+
+- 📄 Static Content: Blogs, documentation, or any read-only pages.
+- 🔍 SEO-Critical Pages: Boost your rankings with server-rendered content.
+- 📊 Data-Heavy Pages: Dashboards or analytics with lots of server-fetched data.
+
+### 🚫 Cons
+- ❌ No Interactivity: Cannot handle events like clicks or form submissions.
+- 🔍 Limited React Features: No support for hooks like useState or useEffect.
+
+
+Client Components Are Perfect For:
+- 🖱️ Interactive Features: Forms, modals, dropdowns, or real-time updates.
